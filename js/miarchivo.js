@@ -445,7 +445,7 @@ miFormulario3.addEventListener("submit", DolarVsDolar);
 $("#contenedor__clientes").show(function() {
 
     $.ajax({
-            url: "../json/usuarios.json",
+            url: "https://github.com/Nahukre/NuevoProyectojs/blob/main/json/usuarios.json",
             type: "GET",
             dataType: "json"
         })
