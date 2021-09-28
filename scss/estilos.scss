@@ -152,6 +152,10 @@ $color-celeste: #548aff;
         font-size: 20px;
         padding-top: 2px;
     }
+    .resultadoDolarVsDolar {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .card__dolares {
         display: inline-block;
         border-color: white;
@@ -163,10 +167,6 @@ $color-celeste: #548aff;
             padding: 0;
         }
     }
-    // .dolarPrecio {
-    //     margin-top: -1px;
-    //     margin-bottom: 0px;
-    // }
     .dolarNombre {
         border-bottom: solid;
         border-color: white;
@@ -494,6 +494,11 @@ $color-celeste: #548aff;
     .dolarBlue__nombre {
         text-align: center;
         padding-top: 10px;
+    }
+    .nivelRiesgo {
+        font-weight: bold;
+        padding-bottom: 15px;
+        font-size: 20px;
     }
     img.card-img-top {
         width: 100%;
@@ -910,29 +915,5 @@ $color-celeste: #548aff;
     #cuentoTardo {
         grid-column: x0 / x1;
         grid-row: y0 / y1;
-    }
-    /*Boton de ir arriba*/
-    #button-up {
-        width: 60px;
-        height: 60px;
-        background: rgba(110, 236, 8, 0.4);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        border-radius: 50%;
-        font-size: 20px;
-        position: fixed;
-        bottom: 100px;
-        right: 11px;
-        cursor: pointer;
-        border: 4px solid transparent;
-        transition: all 300ms ease;
-        transform: scale(0);
-        &:hover {
-            background: rgba(110, 236, 8, 0.4);
-            transform: scale(1.1);
-            border-color: rgba(0, 0, 0, 0.1);
-        }
     }
 }

@@ -2,21 +2,21 @@
     "users": [{
             "id": 1,
             "name": "Harry Potter",
-            "image": "../img/harry.jpg",
+            "image": "./img/harry.jpg",
             "house": "Gryffindor",
             "opinion": "Genial! Ahora presto atención a mis finanzas"
         },
         {
             "id": 2,
             "name": "Hermione Granger",
-            "image": "../img/hermione.jpg",
+            "image": "./img/hermione.jpg",
             "house": "Gryffindor",
             "opinion": "Aprendí a invertir con esta página"
         },
         {
             "id": 3,
             "name": "Ron Weasley",
-            "image": "../img/ron.jpg",
+            "image": "./img/ron.jpg",
             "house": "Gryffindor",
             "opinion": "Me encanta la app. 100% recomendable"
         }
